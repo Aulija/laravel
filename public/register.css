@@ -1,0 +1,121 @@
+/* General Reset */
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+
+body {
+	font-family: Arial, sans-serif;
+	background-color: #f8f5e3;
+	color: #333;
+	text-align: center; 
+}
+
+/* Register Page Styling */
+.register-container {
+	background-color: #f0f0f0;
+	border-radius: 8px;
+	padding: 30px;
+	width: 400px;
+	text-align: center;
+	box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.1);
+	margin: 100px auto;
+}
+
+.logo-container img {
+	width: 100px;
+	height: auto;
+	margin-bottom: 15px;
+}
+
+h2 {
+	color: #333;
+	margin-bottom: 20px;
+}
+
+.register-form input,
+.register-form select {
+	width: 100%;
+	padding: 12px;
+	margin-bottom: 12px;
+	border: 1px solid #ccc;
+	border-radius: 5px;
+	font-size: 14px;
+	outline: 1px solid #000000;
+}
+
+.password-container {
+	position: relative;
+}
+
+.password-container input {
+	padding-right: 35px;
+}
+
+.toggle-password {
+	position: absolute;
+	right: 10px;
+	top: 50%;
+	transform: translateY(-90%);
+	background: none;
+	border: none;
+	cursor: pointer;
+}
+
+/* Checkbox Styling */
+.terms {
+	display: flex;
+	align-items: center;
+	text-align: left;
+	font-size: 12px;
+	margin-bottom: 20px;
+}
+
+.terms input[type="checkbox"] {
+    margin-right: 10px;
+    outline: none;
+    border: none;
+    width: auto; 
+		transform: translateY(40%);
+		margin-left: 10%;
+
+}
+
+.terms a {
+	color: #666;
+	text-decoration: none;
+}
+
+.terms a:hover {
+	text-decoration: underline;
+}
+
+
+.btn-sign-up {
+	width: 100%;
+	padding: 12px;
+	background-color: #a9b09a;
+	color: white;
+	border: none;
+	border-radius: 5px;
+	cursor: pointer;
+	font-size: 14px;
+	transform :translateY(-30%)
+}
+
+p {
+	font-size: 12px;
+	color: #666;
+}
+
+p a {
+	color: #666;
+	text-decoration: none;
+}
+
+p a:hover {
+	text-decoration: underline;
+}
+
+
